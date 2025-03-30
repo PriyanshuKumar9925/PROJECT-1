@@ -5,15 +5,7 @@
     margin: 20px;
     display: inline;
   }
-  h1{
-    color:#3C2F60;
-    font-size: 70px;
-    margin: 40px;
-  }
-span{
-  color: #5955B3;
-  font-size: 70px;
-}
+
 .navbar-container{
   display: flex;
   justify-content:space-between;
@@ -59,14 +51,14 @@ span{
   margin: 40px;
   border-radius: 15px;
 }
-img[src="Header Illustration.png"]{
-  position:absolute;
-  top: -500px;
-  left: 200px;
-  width: 50%;
-  height: 80%;
-  margin: 600px;
-  padding: 0px;
-  
+.banner-container{
+  display: flex;
+  flex-direction: row;
+  color:#3C2F60;
+  font-size: 40px;
+  margin: 70px;
 }
-
+span{
+  color: #5955B3;
+  font-size: 66px;
+}
